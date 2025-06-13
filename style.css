@@ -1,0 +1,126 @@
+/* Blank .css file */
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gabarito',sans-serif;
+    margin: 0;
+}
+
+.banner {
+    width: 100%;
+    background: url(images/gianfranco-lanzio-87KWa7MY2RM-unsplash\ 1.png);
+    text-align: center;
+    height: 800px;
+}
+
+.container {
+    background: white;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar{
+    /* width: 800px; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar a{
+    margin-right: 30px;
+    text-decoration: none;
+}
+
+.banner h1{
+    color: white;
+}
+
+.selected {
+    background: #D95700;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.flex > *:nth-child(odd) {
+margin-top: 50px;
+}
+
+.flex > img, .flex > .destination-list {
+    width: 100%;
+    max-height: 700px;
+}
+
+.open {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 80px;
+} 
+
+.destination-list {
+    /* width: 230px; */
+    background: #FFF4EC;
+    padding: 40px;
+    height: 670px;
+    border-radius: 200px;
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.25);
+}
+
+.destination-list h2 {
+    position: absolute;
+    font-family: serif;
+    font-family: 'Qwitcher Grypen';
+    color: #D95700;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.destination-list p {
+    margin-top: 140px;
+}
+
+@media (max-width: 1000px) {
+    .flex {
+        flex-direction: column;
+    }
+}
+
+.total{
+    position: relative;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.floating {
+    position: absolute;
+    z-index: 1;
+    /* top: -100px; */
+    right: 0;
+}
+
+.only{
+    width: 100%;
+    background: url(images/jose-llamas--8Ir6uO4a_A-unsplash\ 2.png);
+    text-align: center;
+    height: 800px;
+}
+
+.Tourism-temperature{
+    background: white;
+    width: 812px;
+    height: 576px;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+}
+
+.Tourism-temperature a{
+    
+}
