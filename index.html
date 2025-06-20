@@ -1,76 +1,196 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
   <title>Blank website</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="custom.css">
+  <link rel="stylesheet" href="tourism-fix.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
   <!-- Content goes here -->
-  
 
   <div class="container">
     <div class="banner">
       <div class="navbar">
-        <!-- <img src="images/logo.png" alt=""> -->
-          
-        <div>
-          <a class="selected"href="#">Home</a>
+        <div class="logo">
+        </div>
+        <div class="nav-links">
+          <a class="selected" href="#">Home</a>
           <a href="#">Destinations</a>
           <a href="#">Tours</a>
           <a href="#">Pages</a>
           <a href="#">News</a>
           <a href="#">Contact</a>
         </div>
-
-        <div>
+        <div class="nav-icons">
           <img src="images/search.svg" alt="">
           <img src="images/user.svg" alt="">
         </div>
       </div>
-      <h1>Set Out Without Delay</h1>
+
+      <div class="banner-content">
+        <span class="logo-text">Traveling</span>
+        <h1>Set Out Without Delay</h1>
+        <div class="search-box">
+          <div class="search-inputs">
+            <div class="input-group">
+              <label>Where to</label>
+              <input type="text" placeholder="Enter keywords">
+            </div>
+            <div class="input-group">
+              <label>When</label>
+              <input type="text" placeholder="September">
+            </div>
+            <div class="input-group">
+              <label>Type</label>
+              <input type="text" placeholder="Adventure">
+            </div>
+          </div>
+          <button class="search-btn">Find now</button>
+        </div>
+      </div>
     </div>
   </div>
 
   <div class="wrapper">
     <div class="open">
       <div class="flex">
-        <img src="images/331747839934_.pic 1.png" alt="">
-        <img src="images/321747839747_.pic 1.png" alt="">
-        <img src="images/341747840159_.pic 1.png" alt="">
-        <div class="destination-list">
-          <h2>Our destination lists</h2>
-          <p>Checkout Beautiful Places Arround the Word.Begin your New life Experience with Exploring New Destination.Enjoy your Best Quality Tour.Choose your </p>
-          <img src="images/winds.svg" alt="">
-          <p2>Destination and Embark on your Journey.</p2>
+        <div class="destination-card">
+          <img src="images/331747839934_.pic 1.png" alt="">
+          <div class="location">Switzerland</div>
+        </div>
+        <div class="destination-card">
+          <img src="images/321747839747_.pic 1.png" alt="">
+          <div class="location">Norway</div>
+        </div>
+        <div class="destination-card">
+          <img src="images/341747840159_.pic 1.png" alt="">
+          <div class="location">
+            <span>Austria</span>
+          </div>
+        </div>
+        <div class="destination-wrapper">
+          <div class="destination-list">
+            <h2 style="white-space: nowrap; display: inline-block; width: auto;">Our destination lists</h2>
+            <p>Checkout</p>
+            <p>Beautiful Places</p>
+            <p>Arround</p>
+            <p>the Word.</p>
+            <p>Begin your New life</p>
+            <p>Experience with</p>
+            <p>Exploring New</p>
+            <p>Destination.</p>
+            <p>Enjoy your Best</p>
+            <p>Quality Tour.</p>
+            <p>Choose your</p>
+            <div class="destination-icon">
+              <i class="fas fa-equals"></i>
+            </div>
+            <p>Destination and Embark on your Journey.</p>
+           
+          </div>
+
+          <div class="view-more-btn">
+            <a href="#">View more</a>
+          </div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="people">
-    <img style="display: flex;" src="images/anders-nielsen-8jQFXXSTvbw-unsplash 2.png" alt="">
+    <img src="images/anders-nielsen-8jQFXXSTvbw-unsplash 2.png" alt="">
+    <img class="tourism-pic" src="images/12291747851237_.pic 1.png" alt="">
+
   </div>
 
   <div class="tourism">
     <div class="only">
-      <img class="floating" src="images/12291747851237_.pic 1.png" alt="">
-
+          <div class="tourism-title">
+            <span>LIFE ON JOURNEYS</span>
+          </div>
       <div class="total">
         <div class="Tourism-temperature">
+
           <h3>Tourism temperature</h3>
           <p>During the tour, offer advice and recommendations on:</p>
-          <div>
-          <a class="on"href="#">Hotel</a>
-          <a href="#">Food</a>
-          <a href="#">Transportation</a>
-          <a href="#">Community</a>
-          <p2>Help you formulate a strategy that suits you.Let travel better match your steps and have a warm travel experience.</p2>
+          <div class="tourism-options" style="display: flex; flex-direction: column; gap: 12px;">
+            <a class="on active" href="#">
+              <img class="arrow" src="images/chevron-double-right.svg" alt="">
+              <img src="images/building-one.svg" alt="">
+              <span>Hotel</span>
+            </a>
+            <a class="on" href="#">
+              <img class="arrow" src="images/chevron-double-right.svg" alt="">
+              <img src="images/cocktail.svg" alt="">
+              <span>Food</span>
+            </a>
+            <a class="on" href="#">
+              <img class="arrow" src="images/chevron-double-right.svg" alt="">
+              <img src="images/inbox.svg" alt="">
+              <span>Transportation</span>
+            </a>
+            <a class="on" href="#">
+              <img class="arrow" src="images/chevron-double-right.svg" alt="">
+              <img src="images/users-group.svg" alt="">
+              <span>Community</span>
+            </a>
+            <p class="help-text">Help you formulate a strategy that suits you.<br>Let travel better match your steps and have a warm travel experience.</p>
+          </div>
         </div>
+        <!-- <img class="tourism-pic" src="images/12291747851237_.pic 1.png" alt=""> -->
+      </div>
+    </div>
+  </div>
+
+  <div class="social-networks">
+    <div class="footer-container">
+      <div class="footer-section">
+        <h4>Social networks</h4>
+        <p>Welcome to our trip and tour agency.<br>Lorem simply text amet cing elit.</p>
+        <div class="divider"></div>
+        <div class="social-icons">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-google-plus-g"></i></a>
+          <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-section">
+        <h4>Get in touch</h4>
+        <ul class="contact-info">
+          <li><img class="m" src="images/location-home.svg" alt=""></i> New York,NY 10012,US</li>
+          <li><img class="m" src="images/send.svg" alt=""></i> Info@example.com</li>
+          <li><img class="m" src="images/telephone.svg" alt=""></i> +01 234 567 88</li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Quick link</h4>
+        <ul class="quick-links">
+          <li><a href="#"><i class="fas fa-angle-right"></i> Service items</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Join us</a></li>
+          <li><a href="#"><i class="fas fa-angle-right"></i> Help & Support</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-section">
+        <h4>Newsletter</h4>
+        <div class="newsletter-form">
+          <input type="email" placeholder="Email address">
+          <button>SUBSCRIBE</button>
         </div>
       </div>
     </div>
-  </div>  
 
+    <div class="copyright">
+      <p>&copy; 2025 Copyright&middot;CN&middot;Switzerland.com</p>
+    </div>
   </div>
 </body>
 </html>
+
